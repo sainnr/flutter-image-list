@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 import 'ImageCart.dart';
+import 'package:flutter/foundation.dart' show debugDefaultTargetPlatformOverride;
 
-void main() => runApp(MyApp());
+void main() {
+  debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
+  runApp(MyApp());
+}
 
 @immutable
 class MyApp extends StatelessWidget {
