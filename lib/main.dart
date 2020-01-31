@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_image_list/widgets.dart';
 
-import 'ImageCart.dart';
+import 'ImageCard.dart';
 import 'package:flutter/foundation.dart' show debugDefaultTargetPlatformOverride;
 
 void main() {
