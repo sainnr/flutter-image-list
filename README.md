@@ -1,9 +1,9 @@
 # flutter-image-list
 
-A sample Flutter application that showcases progressive images loading with Cloudinary and [CachedNetworkImage](https://github.com/renefloor/flutter_cached_network_image) package.
+A sample Flutter application that showcases progressive images loading with [Cloudinary](https://cloudinary.com/documentation/image_transformation_reference) and [CachedNetworkImage](https://github.com/renefloor/flutter_cached_network_image) package.
 
 Tested to run under the following devices:
-* Adroid (emulator)
+* Android (emulator)
 * Web
 * Ubuntu Linux
 
